@@ -2,6 +2,7 @@ from core import *
 
 adress_book = AdressBook()
 
+
 def input_error(func):
     def wrapper(*args, **kwargs):
         try:
@@ -129,6 +130,7 @@ COMMANDS = {
 def main():
 
     unpacking_data()
+    
 
     print(
         '> Hello user , I hknow this commands:')
@@ -141,6 +143,7 @@ def main():
 
     while True:
         u_input = input('∞ ').rstrip().lstrip()
+
 
         if u_input in ['bye', 'quit', 'exit', 'break', 'q']:
             print('>Good Bye :)')
@@ -173,7 +176,9 @@ def main():
 
         else:
             print('> I cant find this')
-
+        adress_book.save_data
+    
 
 if __name__ == "__main__":
     main()
+    

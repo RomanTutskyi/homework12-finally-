@@ -103,16 +103,7 @@ def days_to_birthday(string):
     return False
 
 def save_data():
-    adress_book.save_data
-def unpacking_data():
-    adress_book.unpacking_data
-@input_error
-def all_notes(count):
-    count = int(count)
-    adress_book.iteration(count)
 
-    for _ in range(count):
-        print(next(adress_book))
 
 COMMANDS = {
     'add':  add_contact,

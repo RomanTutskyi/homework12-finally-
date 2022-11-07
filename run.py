@@ -169,7 +169,7 @@ def main():
                 print('> Done!')
 
             else:
-                print('> Check again args  to this command!')
+                print('> Check again information   to this command!')
 
         else:
             print('> I cant find this')
